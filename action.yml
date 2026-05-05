@@ -15,10 +15,10 @@ inputs:
     description: 'Authentication token for Hackage'
     required: true
 
-  publish:
-    description: 'A flag indicating whether to publish the release on Hackage. Uploads a release candidate if set to false'
+  candidate:
+    description: 'Whether to upload the package as a candidate'
     required: false
-    default: 'false'
+    default: 'true'
 
   packagesPath:
     description: 'Path that contains packages tarballs'
