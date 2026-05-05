@@ -21,12 +21,12 @@ inputs:
     default: 'false'
 
   packagesPath:
-    description: 'Path that contains packages tarbals'
+    description: 'Path that contains packages tarballs'
     required: false
     default: dist-newstyle/sdist/
 
   docsPath:
-    description: 'Path that contains packages documentation tarbals'
+    description: 'Path that contains packages documentation tarballs'
     required: false
     default: ''
 
