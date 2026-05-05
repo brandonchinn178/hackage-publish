@@ -6,9 +6,9 @@ A GitHub action for publishing packages and documentation to Hackage
 
 * `hackageToken` (required): An auth token from Hackage, which can be generated at `https://hackage.haskell.org/user/$USERNAME/manage`
 
-* `publish` (optional): When false, uploads as a candidate.
-    * Defaults to `false`
-    * WARNING: Because Hackage uploads are permanent, it's usually not a good idea to do irreversible actions in an automatic pipeline. If you're absolutely sure you want to skip the candidate step, set this to `true`
+* `candidate` (optional): When true, uploads as a candidate.
+    * Defaults to `true`
+    * WARNING: Because Hackage uploads are permanent, it's usually not a good idea to do irreversible actions in an automatic pipeline. If you're absolutely sure you want to skip the candidate step, set this to `false`
 
 * `packagesPath` (optional): The path that contains package tarballs (defaults to `dist-newstyle/sdist/`)
 
